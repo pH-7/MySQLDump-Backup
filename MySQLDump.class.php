@@ -2,6 +2,8 @@
 namespace PH7\SQL\Backup;
 /**
  * @class MySQLDump Class
+ * @access public
+ * 
  * Backs up a database, creating a file for each day of the week,
  * using the mysqldump utility.
  * Can compress backup file with gzip of bzip2.
@@ -23,11 +25,13 @@ namespace PH7\SQL\Backup;
  * @author      SORIA Pierre-Henry
  * @email       pierrehs@hotmail.com
  * @link        http://github.com/pH-7
+ * @copyright   Copyright pH7 Script All Rights Reserved.
  * @license     GNU GPL 3 (www.gnu.org/licenses/gpl-3.0.html)
  * @version     $Id: MySQLDump.php 2012-02-13 pierrehs $
  */
  
 class MySQLDump {
+	
   /**
    * @desc The backup command to execute
    * @access private
