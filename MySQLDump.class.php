@@ -21,7 +21,6 @@ namespace PH7\SQL\Backup;
  * 
  * @use Please run your php script using this class (~/MySQLDump.class.php) with a cron (e.g. cPanel, Plesk, ...) and execute this script at a time periodic.
  * 
- * @access public
  * @author      SORIA Pierre-Henry
  * @email       pierrehs@hotmail.com
  * @link        http://github.com/pH-7
