@@ -27,7 +27,7 @@ namespace PH7\SQL\Backup;
  * @link        http://github.com/pH-7
  * @copyright   Copyright pH7 Script All Rights Reserved.
  * @license     GNU GPL 3 (www.gnu.org/licenses/gpl-3.0.html)
- * @version     $Id: MySQLDump.php 1.2
+ * @version     $Id: MySQLDump.class.php 1.2
  * @create 2012-02-13
  * @update 2012-04-21
  */
