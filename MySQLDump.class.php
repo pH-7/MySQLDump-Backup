@@ -28,8 +28,8 @@ namespace PH7\SQL\Backup;
  * @copyright   Copyright pH7 Script All Rights Reserved.
  * @license     Lesser General Public License (LGPL) (http://www.gnu.org/copyleft/lesser.html)
  * @version     $Id: MySQLDump.class.php 1.2
- * @create 2012-02-13
- * @update 2012-04-21
+ * @create      2012-02-13
+ * @update      2012-04-22
  */
 
 class MySQL {
