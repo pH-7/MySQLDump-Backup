@@ -18,7 +18,7 @@ namespace PH7\SQL\Backup;
  * $oMySQLDump = new \PH7\SQL\Backup\MySQL('localhost', 'database_user', 'database_password', 'database_name', '/var/www/backup/sql/', 'bz2');
  * $oMySQLDump->backup();
  *
- * - code -
+ * -- code --
  *
  * @use Please run your php script using this class (~/MySQLDump.class.php) with a cron (e.g. cPanel, Plesk, ...) and execute this script at a time periodic.
  *
@@ -35,7 +35,7 @@ namespace PH7\SQL\Backup;
 class MySQL {
 
   /**
-   * @desc The backup command to execute
+   * @desc The backup command to execute.
    * @access private
    * @var string $sCmd
    */
@@ -49,7 +49,7 @@ class MySQL {
   private $aZipExt = array('gz'=>'gzip','bz2'=>'bzip2');
 
   /**
-   * @desc MySQLDump constructor
+   * @desc MySQLDump constructor.
    * @access public
    * @param string $sDbHost (MySQL Host Name)
    * @param string $sDbUser (MySQL User Name)
@@ -57,6 +57,7 @@ class MySQL {
    * @param string $sDbName (Database to select)
    * @param string $sDest (Full dest. directory for backup file)
    * @param string $sZip (Zip type; gz - gzip [default], bz2 - bzip)
+   * @return void
    */
   public function __construct($sDbHost, $sDbUser, $sDbPass, $sDbName, $sDest, $sZip = 'gz')
   {
@@ -69,7 +70,7 @@ class MySQL {
   }
 
   /**
-   * @desc Runs the constructed command
+   * @desc Runs the constructed command.
    * @access public
    * @return void
    */
