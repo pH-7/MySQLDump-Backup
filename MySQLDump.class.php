@@ -15,7 +15,7 @@ namespace PH7\SQL\Backup;
  *
  * - code -
  *
- * $oMySQLDump = new PH7\Framework\Mvc\Model\Engine\Util\Backup\MySQL('localhost', 'database_user', 'database_password', 'database_name', '/var/www/backup/sql/', 'bz2');
+ * $oMySQLDump = new \PH7\SQL\Backup\MySQL('localhost', 'database_user', 'database_password', 'database_name', '/var/www/backup/sql/', 'bz2');
  * $oMySQLDump->backup();
  *
  * - code -
