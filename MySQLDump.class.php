@@ -51,12 +51,12 @@ class MySQL {
   /**
    * @desc MySQLDump constructor.
    * @access public
-   * @param string $sDbHost (MySQL Host Name)
-   * @param string $sDbUser (MySQL User Name)
-   * @param string $sDbPass (MySQL User Password)
-   * @param string $sDbName (Database to select)
-   * @param string $sDest (Full dest. directory for backup file)
-   * @param string $sZip (Zip type; gz - gzip [default], bz2 - bzip)
+   * @param string $sDbHost MySQL Host Name
+   * @param string $sDbUser MySQL User Name
+   * @param string $sDbPass MySQL User Password
+   * @param string $sDbName Database to select
+   * @param string $sDest The path to folder where the file will be stored backup
+   * @param string $sZip Zip type; gz - gzip [default], bz2 - bzip
    * @return void
    */
   public function __construct($sDbHost, $sDbUser, $sDbPass, $sDbName, $sDest, $sZip = 'gz')
